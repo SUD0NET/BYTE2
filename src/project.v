@@ -25,6 +25,7 @@
 module tt_um_byte2 (
     input  wire       clk,
     input  wire       rst_n,
+    input  wire       ena,
     input  wire [7:0] ui_in,
     output wire [7:0] uo_out,
     input  wire [7:0] uio_in,
